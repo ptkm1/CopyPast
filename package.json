@@ -1,0 +1,20 @@
+{
+  "name": "copypast",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.ts",
+  "dependencies": {
+    "electron": "^10.1.5",
+    "electron-reload": "^1.5.0",
+    "fs": "0.0.1-security",
+    "ncp": "^2.0.0",
+    "typescript": "^4.0.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "electron main.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

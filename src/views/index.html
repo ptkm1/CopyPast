@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CopyPast</title>
+</head>
+<body>
+
+  <input type="file" id="i_file" value=""> 
+  <input type="file" id="i_file2" value=""> 
+  <button id="btnCopy" >Copiar!</button>
+
+<div  style="background-color: tomato;">
+
+</div>
+
+  <script>
+    const { Copiar } = require('../controllers/Copiar.ts');
+    const btnCopy = document.getElementById('btnCopy');
+
+    /*
+      <TENTANDO DEIXAR AUTOMATIZADO>
+    let arquivo = document.getElementById('i_file').onchange = function(event){
+      var result = event.target.files[0];
+      return arquivo = result;
+    }
+
+    let destino = document.getElementById('i_file2').onchange = function(event){
+      var result = event.target.files[0];
+      return destino = result;
+    }
+    
+    */
+
+    //Copia estática, passando o path da pasta
+    const arquivo = "./src/myArchive"
+    const destino = "./src/teste"
+
+    btnCopy.onclick = function(){
+      Copiar(arquivo,destino)
+    } 
+  </script>
+
+
+
+</body>
+</html>
