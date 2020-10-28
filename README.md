@@ -12,11 +12,11 @@ A idéia é gerar um script que copie pastas de um local escolhido, para outro e
 
 **Milestones**
 
-- [+-] Criar a lógica do script
+- [X] Criar a lógica do script
 - [X] Back-end
 - [x] Criar o front-end
-- [] Refatorar o código
-- [] Build
+- [ ] Refatorar o código
+- [ ] Build
 
 **Autores** 
 Foto | Nome | GitHub | Likedin | E-mail
