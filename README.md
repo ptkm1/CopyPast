@@ -15,6 +15,7 @@ A idéia é gerar um script que copie pastas de um local escolhido, para outro e
 - [+-] Criar a lógica do script
 - [X] Back-end
 - [x] Criar o front-end
+- [] Inserir funcionalidades de Drag-and-Drop
 - [] Refatorar o código
 - [] Build
 
