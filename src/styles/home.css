@@ -1,0 +1,51 @@
+.formInputs{
+  background-color: var(--foreground-color);
+  border-radius: 15px;
+  width: 80%;
+  height: 80%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+input{
+  display: none;
+}
+
+label{
+  width: 100px;
+  height: 100px;
+  margin: 15px;
+  border-radius: 15px;
+  color: white;
+  background-color: var(--button-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+  transition: 1.7s;
+}
+
+label:hover{
+  background:#bd93f9;
+}
+
+#btnCopy{
+  background-color: var(--button-color);
+  width: 150px;
+  height: 50px;
+  border-radius: 15px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 1.2s;
+}
+
+#btnCopy:hover{
+  background-color:#ffb86c;
+}

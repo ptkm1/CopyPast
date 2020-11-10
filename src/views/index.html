@@ -3,46 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../styles/global.css">
+  <link rel="stylesheet" href="../styles/home.css">
   <title>CopyPast</title>
 </head>
 <body>
-
+<div class="formInputs">
+  <h4>Escolha um arquivo, dentro da pasta que deseja copiar</h4>
+  <span>*lembrando que copiaremos a pasta diretório!</span>
+  <label for="i_file">
+    <img src="../assets/anex.svg"/>
+  </label>
   <input type="file" id="i_file" value=""> 
+
+
+  <h4>Agora, escolha um ARQUIVO dentro da pasta que deseja colar.</h4>
+  <label for="i_file">
+    <img src="../assets/target.svg"/>
+  </label>
   <input type="file" id="i_file2" value=""> 
-  <button id="btnCopy" >Copiar!</button>
-
-<div  style="background-color: tomato;">
-
+  <button id="btnCopy">Copiar!</button>
 </div>
 
-  <script>
-    const { Copiar } = require('../controllers/Copiar.ts');
-    const btnCopy = document.getElementById('btnCopy');
-
-    /*
-      <TENTANDO DEIXAR AUTOMATIZADO>
-    let arquivo = document.getElementById('i_file').onchange = function(event){
-      var result = event.target.files[0];
-      return arquivo = result;
-    }
-
-    let destino = document.getElementById('i_file2').onchange = function(event){
-      var result = event.target.files[0];
-      return destino = result;
-    }
-    
-    */
-
-    //Copia estática, passando o path da pasta
-    const arquivo = "./src/myArchive"
-    const destino = "./src/teste"
-
-    btnCopy.onclick = function(){
-      Copiar(arquivo,destino)
-    } 
-  </script>
-
-
-
+<script>require("../controllers/Execute.ts")</script>
 </body>
 </html>
