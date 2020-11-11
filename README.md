@@ -7,8 +7,8 @@ Após clonar o projeto na sua máquina, *é importante estar na raiz do projeto*
 *Para Iniciar*: **npm start**
 
 ## **Justificativa**
-Uma demanda da empresa de cópia de diversas pastas, de um local para o outro, fez surgir uma idéia.
-A idéia é gerar um script que copie pastas de um local escolhido, para outro em massa, de acordo com a data do dia atual.
+Uma demanda do setor de TI da CSN, precisava de um script de cópia de diversas pastas, de um servidor local para um local de backup;
+
 
 ## **Tecnologias**
 - Typescript
